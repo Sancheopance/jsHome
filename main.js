@@ -1,9 +1,3 @@
-console.log(formattedPhone('+71234567890')); // +7 (123) 456-78-90
-console.log('+71234567890');
-console.log(phone.length);
-
-
-
 alert('Существует две строки: Мама мыла раму; Собака друг человека;  ');
 const firstRow='Мама мыла раму';
 const secondRow='Собака друг человека';
