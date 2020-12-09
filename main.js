@@ -1,21 +1,8 @@
-// console.log(10);
-
-// function getOnlyOddNumbers (counter){
-//     let result = '';
-
-//     for (let i=0; i < counter; i++) {
-//         if(i % 2 === 0){
-//             continue;
-//         }
-//         result += i + ' ';
-//     }
-//     return result;
-// }
-// console.log(getOnlyOddNumbers(20));
-
+alert('Существует две строки: Мама мыла раму; Собака друг человека;  ');
 const firstRow='Мама мыла раму';
-const secondRow='собака друг человека';
-const CHAR ='а';
+const secondRow='Собака друг человека';
+const CHAR = prompt('Пожалуйста, укажите букву, по которой будет выбрана строка с наибольшим повторением этой буквы');
+
 
 function getRow(firstRow, secondRow){
     let firstResult = counterChar(firstRow, CHAR);
@@ -29,6 +16,8 @@ function getRow(firstRow, secondRow){
 
 
 return firstResult > secondResult ? firstRow : secondRow;
+
+
 }
 
 function counterChar(row, char){
@@ -40,6 +29,13 @@ function counterChar(row, char){
         }
     }
     return counted;
+   
 }
 
-console.log(getRow(firstRow, secondRow)); 
+alert(getRow(firstRow, secondRow));
+
+
+
+
+
+
